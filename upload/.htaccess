@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Auth yourself for FoGall upload"
+AuthUserFile ##CHANGE ME##.htpasswd
+require valid-user

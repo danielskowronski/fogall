@@ -1,0 +1,13 @@
+*			{font-family:"Segoe UI Semilight"; cursor:default; margin:0; padding:0;}
+body		{background-image:url(bg.png); background-color:#fff; color:#000; margin:30px}
+h1			{font-family:"Segoe UI"; font-weight:normal; font-size:26pt;}
+h2			{font-family:"Segoe UI Semibold"; font-weight:normal; text-transform:uppercase; font-size:10pt;}
+a, a img	{text-decoration:none; color:#000; cursor:pointer;}
+a:hover		{color:#0ae;}
+.img		{border:3px solid transparent;}
+.img:hover	{border:3px solid #0ae;}
+#container	{/*background-image:url(logo.png); */background-repeat:no-repeat; background-position:20px 16px; padding:20px; /*padding-left: 110px;*/}
+#header		{margin-bottom:20px;}
+#navigation	{text-transform:lowercase; margin-top:36px; margin-bottom:25px;}
+#content	{font-family:"Segoe UI Light"; text-transform:lowercase; font-size:27pt;}
+#copy		{font-family:"Segoe UI"; font-size:10pt; cursor:pointer; position:fixed; bottom:5px; right:5px;}

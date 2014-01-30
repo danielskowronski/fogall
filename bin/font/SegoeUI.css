@@ -1,0 +1,63 @@
+/*
+This CSS resource incorporates links to font software which is
+the valuable copyrighted property of Monotype Imaging and/or
+its suppliers. You may not attempt to copy, install, redistribute, convert,
+modify or reverse engineer this font software. Please contact Monotype Imaging
+with any questions regarding Web Fonts:  http://www.fontslive.com
+*/
+
+
+@font-face {
+  font-family: "Segoe UI";
+  src: url("49f29ee2-7db6-49b6-b6b0-bd58f2cb7f97-2.eot");
+  src: url("49f29ee2-7db6-49b6-b6b0-bd58f2cb7f97-2.eot?#iefix") format("embedded-opentype"),
+       url("49f29ee2-7db6-49b6-b6b0-bd58f2cb7f97-3.woff") format("woff"),
+       url("49f29ee2-7db6-49b6-b6b0-bd58f2cb7f97-1.ttf") format("truetype"),
+       url("49f29ee2-7db6-49b6-b6b0-bd58f2cb7f97-4.svg#web") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  src: url("6a9c65a5-60d6-4e54-8d47-fe022a3a2377-2.eot");
+  src: url("6a9c65a5-60d6-4e54-8d47-fe022a3a2377-2.eot?#iefix") format("embedded-opentype"),
+       url("6a9c65a5-60d6-4e54-8d47-fe022a3a2377-3.woff") format("woff"),
+       url("6a9c65a5-60d6-4e54-8d47-fe022a3a2377-1.ttf") format("truetype"),
+       url("6a9c65a5-60d6-4e54-8d47-fe022a3a2377-4.svg#web") format("svg");
+  font-style: normal;
+  font-weight: bold;
+}
+     
+@font-face {
+  font-family: "Segoe UI Light";
+  src: url("8713c638-8681-4689-990c-dddc81e8c42a-2.eot");
+  src: url("8713c638-8681-4689-990c-dddc81e8c42a-2.eot?#iefix") format("embedded-opentype"),
+       url("8713c638-8681-4689-990c-dddc81e8c42a-3.woff") format("woff"),
+       url("8713c638-8681-4689-990c-dddc81e8c42a-1.ttf") format("truetype"),
+       url("8713c638-8681-4689-990c-dddc81e8c42a-4.svg#web") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+      
+@font-face {
+  font-family: "Segoe UI Semibold";
+  src: url("4680d4d3-3c8c-489d-9923-bf0f7da87dc4-2.eot");
+  src: url("4680d4d3-3c8c-489d-9923-bf0f7da87dc4-2.eot?#iefix") format("embedded-opentype"),
+       url("4680d4d3-3c8c-489d-9923-bf0f7da87dc4-3.woff") format("woff"),
+       url("4680d4d3-3c8c-489d-9923-bf0f7da87dc4-1.ttf") format("truetype"),
+       url("4680d4d3-3c8c-489d-9923-bf0f7da87dc4-4.svg#web") format("svg");
+  font-style: normal;
+  font-weight: bold;
+}
+    
+@font-face {
+  font-family: "Segoe UI Semilight";
+  src: url("df1d50ab-0e19-4871-9346-1fc3d3312e6c-2.eot");
+  src: url("df1d50ab-0e19-4871-9346-1fc3d3312e6c-2.eot?#iefix") format("embedded-opentype"),
+       url("df1d50ab-0e19-4871-9346-1fc3d3312e6c-3.woff") format("woff"),
+       url("df1d50ab-0e19-4871-9346-1fc3d3312e6c-1.ttf") format("truetype"),
+       url("df1d50ab-0e19-4871-9346-1fc3d3312e6c-4.svg#web") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}

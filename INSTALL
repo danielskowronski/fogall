@@ -1,0 +1,27 @@
+INSTALL of FoGall
+
+1.	Unpack files to htdocs target directory of any web server supporting PHP5
+2.	Adjust settings in config.php including:
+	a)	$sitename and $title to represent your own gallery (note that $title is bigger one)
+	b)	$site_url as site base URL (eg. "http://example.com/my-gallery/public") 
+		WITHOUT trailing slash (good: "http://example.com", bad: "http://example.com/")
+	c)	$zakazane is array of files and dirs that will NOT be listed, 
+		also files that are just inside listed dirnames will NOT show their content 
+		(eg. you have "priv" added, and dirtree:
+		/pub/
+		 \_____1.jpg
+		 |_____priv/
+		 	    \_____dir/
+		 			   \_____p1.jpg
+		/priv/
+		 \_____2.jpg
+		 |_____apple/
+		        \_____a1.png
+		        |_____a2.png
+		Result will be: 
+			in home you will only see pub/
+			in /pub/ you will only see 1.jpg, not priv/
+			when you enter by hand url /priv/ you won't see any files but message like HTTP 403
+			when you enter by hand url /priv/apple you will have all your files listed
+3.	Do chmod on galleries/ directory to allow read&write for webserver
+4.	Create htpassword file and change upload/.htaccess file
